@@ -3,7 +3,7 @@ import random
 from matplotlib.patches import Rectangle
 
 # 다트를 던질 횟수 설정
-num_darts_list = [1, 100, 10000, 1000000]
+num_darts_list = [1, 10, 100, 10000]
 
 # 그래프 초기화
 fig, axs = plt.subplots(1, 4, figsize=(16, 4))
@@ -66,4 +66,5 @@ for i, num_darts in enumerate(num_darts_list):
 
 # 그래프 표시
 plt.tight_layout()
+
 plt.show()
